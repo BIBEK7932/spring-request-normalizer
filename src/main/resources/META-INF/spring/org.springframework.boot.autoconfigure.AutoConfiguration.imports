@@ -1,0 +1,2 @@
+com.bibek.utils.normalizer.RequestNormalizerAutoConfiguration
+com.bibek.utils.normalizer.RequestNormalizerRestClientAutoConfiguration
