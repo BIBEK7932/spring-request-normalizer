@@ -13,7 +13,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>io.github.BIBEK7932</groupId>
+    <groupId>io.github.bibek7932</groupId>
     <artifactId>spring-request-normalizer</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>

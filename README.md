@@ -22,7 +22,7 @@ A Spring Boot library that automatically normalizes string fields in `@RequestBo
 
 ```xml
 <dependency>
-    <groupId>io.github.BIBEK7932</groupId>
+    <groupId>io.github.bibek7932</groupId>
     <artifactId>spring-request-normalizer</artifactId>
     <version>1.0.0</version>
 </dependency>
@@ -31,7 +31,7 @@ A Spring Boot library that automatically normalizes string fields in `@RequestBo
 ### Gradle
 
 ```groovy
-implementation 'io.github.BIBEK7932:spring-request-normalizer:1.0.0'
+implementation 'io.github.bibek7932:spring-request-normalizer:1.0.0'
 ```
 
 ## Usage

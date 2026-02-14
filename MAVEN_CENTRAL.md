@@ -10,7 +10,7 @@
 
 1. Go to **https://central.sonatype.com/**
 2. Sign in with your **GitHub** account (BIBEK7932)
-3. **Create publisher** → choose **io.github.BIBEK7932**
+3. **Create publisher** → choose **io.github.bibek7932**
 4. Prove ownership: Sonatype will check that you control the GitHub user **BIBEK7932**
 5. Namespace is approved (often immediately)
 
@@ -121,7 +121,7 @@ mvn clean deploy
 ## Step 7: Verify on Maven Central
 
 1. Wait 5–30 minutes for indexing
-2. Open: https://central.sonatype.com/artifact/io.github.BIBEK7932/spring-request-normalizer
+2. Open: https://central.sonatype.com/artifact/io.github.bibek7932/spring-request-normalizer
 
 ---
 
@@ -129,7 +129,7 @@ mvn clean deploy
 
 ```xml
 <dependency>
-    <groupId>io.github.BIBEK7932</groupId>
+    <groupId>io.github.bibek7932</groupId>
     <artifactId>spring-request-normalizer</artifactId>
     <version>1.0.0</version>
 </dependency>
