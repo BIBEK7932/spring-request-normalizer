@@ -99,7 +99,7 @@ public void create(@RequestBody @NormalizeInput CreateUserRequest req) {
 ```java
 @NormalizeInput(trim = true, blankToNull = true, collapseSpaces = true)
 public class SearchRequest {
-    private String query;   // "  hello    world  " → "hello world"
+    private String query;   // "  hello    world  " → "hello world" 
 }
 ```
 
