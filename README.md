@@ -117,6 +117,10 @@ public class SearchRequest {
 2. Trim  
 3. Blank to null (if enabled)
 
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for version history.
+
 ## License
 
 MIT License — see [LICENSE](LICENSE) for details.
