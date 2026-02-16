@@ -40,29 +40,6 @@ implementation 'io.github.bibek7932:spring-request-normalizer:1.0.0'
 
 Annotate both your request and response DTOs. Use **mutable classes** (records have final fields and cannot be modified):
 
-```java
-@HttpExchange(url = "/webresources")
-public interface CerfIvrClient {
-
-    @PostExchange("/OBDCampaign")
-    CerfCampaignTriggerResponse triggerBulkIvrCampaign(@RequestBody CerfIvrRequest request);
-}
-
-@NormalizeInput
-class CerfIvrRequest {
-    public String campaignId;
-    public String phoneNumber;
-}
-
-@NormalizeInput
-class CerfCampaignTriggerResponse {
-    public String status;
-    public String message;
-}
-```
-
-Both `CerfIvrRequest` (before sending) and `CerfCampaignTriggerResponse` (after receiving) will have their string fields normalized automatically.
-
 ### On the DTO class (recommended) — @RestController
 
 ```java
